@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyBDh29LobJ7Nkw1zG5FcluI4qooTbd13Is",
+        authDomain: "jungle-raceing.firebaseapp.com",
+        projectId: "jungle-raceing",
+        storageBucket: "jungle-raceing.appspot.com",
+        messagingSenderId: "609841895230",
+        appId: "1:609841895230:web:6c2b5ae53b6ce51e637e6f"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+<script>
+  const firebaseConfig = {
+  apiKey: "AIzaSyBDh29LobJ7Nkw1zG5FcluI4qooTbd13Is",
+  authDomain: "jungle-raceing.firebaseapp.com",
+  projectId: "jungle-raceing",
+  storageBucket: "jungle-raceing.appspot.com",
+  messagingSenderId: "609841895230",
+  appId: "1:609841895230:web:6c2b5ae53b6ce51e637e6f"
+};
+  
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</script>
+  </head>
+  <body>
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
